@@ -1,6 +1,8 @@
 <h1 align="center">WiMax PHY—Channel Coding</h1>
 <p></p>
 
+![Image](https://github.com/user-attachments/assets/345c1845-3ba4-4885-b95a-f48485295a94)
+
 <ol>
   <li> Introduction: In this project, you are required to implement part of the PHY layer of a WiMax system; namely
 “Channel Coding” (QPSK only) as described in section 8.4.9 in WiMax Standard (IEEE Std
@@ -21,6 +23,7 @@ Transform (iFFT)</li>
 
 <p></p>
 
+
 <h3>Randomizer</h3>
 <h4>A. Initializing Randomization</h4>
 <ul>
@@ -31,6 +34,14 @@ Transform (iFFT)</li>
     </ul>
   </li>
 </ul>
+
+![Image](https://github.com/user-attachments/assets/6e3e3402-d80d-4903-8e30-3554c5196519)
+
+<p></p>
+
+![Image](https://github.com/user-attachments/assets/f54c5cd7-5d2d-4b6d-8004-5ddc3a2461f4)
+![Image](https://github.com/user-attachments/assets/9c4060d3-d00b-452e-9254-10fa0bfd1144)
+![Image](https://github.com/user-attachments/assets/a2fcfa30-ed86-463c-b50c-2936eb67c2f8)
 
 <p></p>
 
@@ -43,6 +54,12 @@ Transform (iFFT)</li>
   <li>Table 318 specifies the concatenation of slots for different allocations and modulations.</li>
   <li>The parameters in Table 317 and Table 318 shall apply to the CC encoding scheme.</li>
 </ul>
+
+<p></p>
+
+![Image](https://github.com/user-attachments/assets/8e51567a-5e83-489a-9d9a-35d79ab5140b)
+![Image](https://github.com/user-attachments/assets/05886869-d8c3-41e5-b10f-0a62b86a6429)
+![Image](https://github.com/user-attachments/assets/75dd973e-0a3d-4cb1-ab77-f540f0b02a15)
 
 <p></p>
 
@@ -70,13 +87,41 @@ Transform (iFFT)</li>
     </ul>
   </li>
 </ul>
- 
+
+ ![Image](https://github.com/user-attachments/assets/d152fbd7-4f6e-4507-96db-5cf14d2bbe73)
+![Image](https://github.com/user-attachments/assets/a7d382c2-3595-4cb5-b181-bef9ef95d396)
+![Image](https://github.com/user-attachments/assets/712265db-8530-463b-9fa8-bc68a06c2ecc)
+![Image](https://github.com/user-attachments/assets/b954b97a-5046-496c-a783-667507d97451)
+![Image](https://github.com/user-attachments/assets/a5f73da9-e190-4b63-822c-874d5240a004)
+![Image](https://github.com/user-attachments/assets/5b98e76b-dce9-45fe-a1b5-d82b4cd1d39d)
+![Image](https://github.com/user-attachments/assets/9cd22a98-2be7-44e0-90dc-91f95914fc08)
+![Image](https://github.com/user-attachments/assets/bb6e5e37-0cf1-462d-91b9-514f16f4bed3)
+![Image](https://github.com/user-attachments/assets/a8d9235c-39ac-4020-914d-8ee578baa138)
+![Image](https://github.com/user-attachments/assets/44b564a4-53f9-45ee-a0ed-86bc63530db0)
+![Image](https://github.com/user-attachments/assets/6d8b9841-6c29-40b2-b4c0-2de9969e7850)
+
  <p></p>
 
- <h3>Modulation7</h3>
-<h4>A. Data modulation8</h4>
+ <h3>Modulation</h3>
+<h4>Data modulation</h4>
 <ul>
   <li>After the repetition block, the data bits are entered serially to the constellation mapper.</li>
   <li>Gray-mapped QPSK and 16-QAM (as shown in Figure 263) shall be supported.</li>
   <li>The constellations (as shown in Figure 263) shall be normalized by multiplying the constellation point with the indicated factor <em>c</em> to achieve equal average power.</li>
 </ul>
+
+![Image](https://github.com/user-attachments/assets/b37b075b-2084-4589-b434-51cf548d5a91)
+![Image](https://github.com/user-attachments/assets/68f62bfc-2bb7-45f5-a836-7974ec318c34)
+
+
+
+
+<h4 >Bing Pong Buffer (Dual Port Ram)</h4>
+
+![Image](https://github.com/user-attachments/assets/4947c8b1-3510-463e-937a-36bb07526b02)
+
+<h4 >Using Ready/Valid Handshake</h4>
+
+![Image](https://github.com/user-attachments/assets/0ed9287a-7066-4368-ab47-51a7aebdfd17)
+![Image](https://github.com/user-attachments/assets/2343d6aa-15c0-47d0-933f-4ac3af16955b)
+![Image](https://github.com/user-attachments/assets/bff78469-ac0d-4d98-a428-b24c3cd02e08)
