@@ -18,6 +18,8 @@ logic [1: 0] counter;
     
 always_comb begin
     out_valid = 0; 
+    I = 16'd0;
+    Q = 16'd0; 
     if (in_valid && in_ready && counter == 2) begin
         case (shift_register)
             2'b00: begin
