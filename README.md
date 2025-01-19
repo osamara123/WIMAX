@@ -128,13 +128,21 @@ Transform (iFFT)</li>
 
 <h1 align ="center">QUESTASIM </h1>
 
-<p> </p>
+![Image](https://github.com/user-attachments/assets/128c5ab9-28b3-4704-9b6e-69f09b86aff0)
 
 <h1 align = "center">QUARTUS SYNTHESIS ON FPGA 5CEBA4F23C7</h1>
 
-![Image](https://github.com/user-attachments/assets/ec3a9f37-6570-442a-a55a-c4c5a8233f12)
-![Image](https://github.com/user-attachments/assets/acd2b44e-4bd1-473b-9967-ff914cc4934a)
-![Image](https://github.com/user-attachments/assets/128c5ab9-28b3-4704-9b6e-69f09b86aff0)
 ![Image](https://github.com/user-attachments/assets/7cda58b2-a044-41dd-ac05-0b3c01744054)
+
+<h4>Positive Time Slack For FPGA synthesis</h4>
+
+![Image](https://github.com/user-attachments/assets/acd2b44e-4bd1-473b-9967-ff914cc4934a)
+
+<h4>fec Finite State Machine</h4>
+
 ![Image](https://github.com/user-attachments/assets/669c1244-8a04-4ae1-8a0d-9000e70f3aa8)
+
+<h4 >Interleaver Finite State Machine</h4>
+
+![Image](https://github.com/user-attachments/assets/ec3a9f37-6570-442a-a55a-c4c5a8233f12)
 
