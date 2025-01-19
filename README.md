@@ -125,3 +125,10 @@ Transform (iFFT)</li>
 ![Image](https://github.com/user-attachments/assets/0ed9287a-7066-4368-ab47-51a7aebdfd17)
 ![Image](https://github.com/user-attachments/assets/2343d6aa-15c0-47d0-933f-4ac3af16955b)
 ![Image](https://github.com/user-attachments/assets/bff78469-ac0d-4d98-a428-b24c3cd02e08)
+
+<h1 align ="center">QUESTASIM </h1>
+
+<p> </p>
+
+<h1 align = "center">QUARTUS SYNTHESIS ON FPGA 5CEBA4F23C7</h1>
+
